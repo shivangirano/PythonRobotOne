@@ -1,0 +1,49 @@
+1652692157896	geckodriver	INFO	Listening on 127.0.0.1:52680
+1652692160962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52681" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileQtFila"
+1652692162317	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileQtFila\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52681/devtools/browser/6d412635-a86a-471a-8e4b-65e70e02cb3c
+1652692165072	Marionette	INFO	Listening on port 52706
+Read port: 52706
+1652692167259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652692171999	Marionette	INFO	Stopped listening on port 52706
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652692222855	geckodriver	INFO	Listening on 127.0.0.1:61755
+1652692225929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileGJe2df"
+1652692226229	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileGJe2df\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61756/devtools/browser/1cafa54a-10e1-4a65-a033-538f7d3396a2
+1652692228401	Marionette	INFO	Listening on port 61777
+Read port: 61777
+1652692228605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652692234892	Marionette	INFO	Stopped listening on port 61777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652693183007	geckodriver	INFO	Listening on 127.0.0.1:64479
+1652693186061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64480" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilexGktvw"
+1652693186426	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilexGktvw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64480/devtools/browser/0132317d-7916-4a29-b067-b35a4bf38376
+1652693188911	Marionette	INFO	Listening on port 64504
+Read port: 64504
+1652693189002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1652693546333	geckodriver	INFO	Listening on 127.0.0.1:58156
+1652693549403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileTAL8YD"
+1652693549715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileTAL8YD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58157/devtools/browser/daec6c9a-8cb6-4362-b541-84673d5bccbf
+1652693552212	Marionette	INFO	Listening on port 58182
+Read port: 58182
+1652693552427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1652693616738	geckodriver	INFO	Listening on 127.0.0.1:63451
+1652693619795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilezK8YZ1"
+1652693620059	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilezK8YZ1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63452/devtools/browser/bd98b0d1-b6d5-4cd2-a0be-4753d6a7aee7
+1652693622184	Marionette	INFO	Listening on port 63475
+Read port: 63475
+1652693622396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"

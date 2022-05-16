@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.9.10 on win32)" generated="20220516 15:03:36.554" rpa="false" schemaversion="3">
+<suite id="s1" name="testDemo1" source="C:\Users\Amit\workspace_python\PractiseRobot\Test\testDemo1.robot">
+<test id="s1-t1" name="Validate Unsuccesfull Login" line="7">
+<kw name="Open the browser with mortage payment url">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Firefox</arg>
+<arg>executable_path=C:/Users/Amit/Drivers/geckodriver</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20220516 15:03:36.699" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<status status="PASS" starttime="20220516 15:03:36.699" endtime="20220516 15:03:42.408"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220516 15:03:42.408" endtime="20220516 15:03:42.414"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220516 15:03:42.414" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<status status="PASS" starttime="20220516 15:03:42.414" endtime="20220516 15:03:42.802"/>
+</kw>
+<status status="PASS" starttime="20220516 15:03:36.699" endtime="20220516 15:03:42.802"/>
+</kw>
+<kw name="Fill the login form">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@id='username']</arg>
+<arg>rahulshettyacademy</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220516 15:03:42.806" level="INFO">Typing text 'rahulshettyacademy' into text field 'xpath://input[@id='username']'.</msg>
+<status status="PASS" starttime="20220516 15:03:42.806" endtime="20220516 15:03:42.879"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>xpath://input[@id='password']</arg>
+<arg>12345</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220516 15:03:42.880" level="INFO">Typing password into text field 'xpath://input[@id='password']'.</msg>
+<msg timestamp="20220516 15:03:42.887" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220516 15:03:42.898" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220516 15:03:42.879" endtime="20220516 15:03:42.899"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='signInBtn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220516 15:03:42.899" level="INFO">Clicking element '//input[@id='signInBtn']'.</msg>
+<status status="PASS" starttime="20220516 15:03:42.899" endtime="20220516 15:03:43.129"/>
+</kw>
+<status status="PASS" starttime="20220516 15:03:42.805" endtime="20220516 15:03:43.131"/>
+</kw>
+<kw name="Wait until it checks and display error message">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://form[@id='login-form']/div[1]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220516 15:03:43.134" endtime="20220516 15:03:45.101"/>
+</kw>
+<status status="PASS" starttime="20220516 15:03:43.133" endtime="20220516 15:03:45.101"/>
+</kw>
+<kw name="Verify if error message is correct">
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>xpath://form[@id='login-form']/div[1]</arg>
+<arg>Incorrect username/password.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20220516 15:03:45.102" level="INFO">Verifying element 'xpath://form[@id='login-form']/div[1]' contains exact text 'Incorrect username/password.'.</msg>
+<status status="PASS" starttime="20220516 15:03:45.102" endtime="20220516 15:03:45.116"/>
+</kw>
+<status status="PASS" starttime="20220516 15:03:45.101" endtime="20220516 15:03:45.116"/>
+</kw>
+<status status="PASS" starttime="20220516 15:03:36.698" endtime="20220516 15:03:45.117"/>
+</test>
+<doc>To validate the Login form</doc>
+<status status="PASS" starttime="20220516 15:03:36.556" endtime="20220516 15:03:45.118"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testDemo1">testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
