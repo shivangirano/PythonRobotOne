@@ -47,3 +47,4 @@ DevTools listening on ws://localhost:63452/devtools/browser/bd98b0d1-b6d5-4cd2-a
 Read port: 63475
 1652693622396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
