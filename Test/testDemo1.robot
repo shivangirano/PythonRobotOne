@@ -1,6 +1,11 @@
 *** Settings ***
 Documentation   To validate the Login form
 Library     SeleniumLibrary
+Test Teardown       Close Browser
+
+
+*** Variables ***
+${invalid_error_message_loacator}       xpath://form[@id='login-form']/div[1]
 
 
 *** Test Cases ***
@@ -23,8 +28,8 @@ Fill the login form
     click element       //input[@id='signInBtn']
 
 Wait until it checks and display error message
-    wait until element is visible       xpath://form[@id='login-form']/div[1]
+    wait until element is visible       ${invalid_error_message_loacator}
 
 Verify if error message is correct
-    element text should be      xpath://form[@id='login-form']/div[1]       Incorrect username/password.
+    element text should be      ${invalid_error_message_loacator}       Incorrect username/password.
 
