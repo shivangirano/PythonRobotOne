@@ -80,3 +80,66 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
 
+1653123423261	geckodriver	INFO	Listening on 127.0.0.1:61782
+1653123426352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilep6n6K1"
+1653123426918	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilep6n6K1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61783/devtools/browser/566770d6-574c-44da-a745-78fa4d3e9fde
+1653123429716	Marionette	INFO	Listening on port 61810
+Read port: 61810
+1653123429853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1653123432719	Marionette	INFO	Stopped listening on port 61810
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1653125679582	geckodriver	INFO	Listening on 127.0.0.1:59899
+1653125682674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileOxxQr2"
+1653125683106	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileOxxQr2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59900/devtools/browser/92cff6c6-8b41-46b0-bc32-cf5e93a2a0e2
+1653125685493	Marionette	INFO	Listening on port 59924
+Read port: 59924
+1653125685570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653125686022	Marionette	INFO	Stopped listening on port 59924
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1653125686718	geckodriver	INFO	Listening on 127.0.0.1:59934
+1653125689779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileNUlJ4J"
+1653125690088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileNUlJ4J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59935/devtools/browser/ace24f0c-3c9d-470d-9921-4ed4d8fbf630
+1653125691795	Marionette	INFO	Listening on port 59957
+Read port: 59957
+1653125691959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1653125692629	Marionette	INFO	Stopped listening on port 59957
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653125789299	geckodriver	INFO	Listening on 127.0.0.1:57545
+1653125792365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57546" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileSd70JY"
+1653125792653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileSd70JY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57546/devtools/browser/3be4bd44-8b9a-4fca-b53d-89aa4afc5cbf
+1653125794430	Marionette	INFO	Listening on port 58022
+Read port: 58022
+1653125794558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1653125797242	Marionette	INFO	Stopped listening on port 58022
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1653125797813	geckodriver	INFO	Listening on 127.0.0.1:58050
+1653125800864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilesuvs9n"
+1653125801143	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofilesuvs9n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58051/devtools/browser/f488471b-7f02-4d94-baf3-eaa557384a2b
+1653125802919	Marionette	INFO	Listening on port 58074
+Read port: 58074
+1653125802954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1653125803701	Marionette	INFO	Stopped listening on port 58074

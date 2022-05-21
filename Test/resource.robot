@@ -6,6 +6,7 @@ Library     SeleniumLibrary
 *** Variables ***
 ${userName}         rahulshettyacademy
 ${invalidPassword}          12345
+${validPassword}        learning
 
 
 *** Keywords ***

@@ -12,16 +12,20 @@ ${invalid_error_message_loacator}       xpath://form[@id='login-form']/div[1]
 *** Test Cases ***
 Validate Unsuccesfull Login
     # Open the browser with mortage payment url
-    Fill the login form
+    Fill the login form     ${userName}     ${invalidPassword}
     Wait until it checks and display error message
     Verify if error message is correct
+
+Valiadte cards displayed on the shopping page
+    Fill the login form     ${userName}     ${validPassword}
 
 
 *** Keywords ***
 
 Fill the login form
-    input text      xpath://input[@id='username']       ${userName}
-    input password      xpath://input[@id='password']       ${invalidPassword}
+    [arguments]     ${user_name}    ${user_password}
+    input text      xpath://input[@id='username']       ${user_name}
+    input password      xpath://input[@id='password']       ${user_password}
     click element       //input[@id='signInBtn']
 
 Wait until it checks and display error message
