@@ -233,3 +233,43 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1653148875824	geckodriver	INFO	Listening on 127.0.0.1:50674
+1653148878891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileZV0KSE"
+1653148879187	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileZV0KSE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50675/devtools/browser/970c12ac-ed6d-4a17-8591-13dff3996921
+1653148880925	Marionette	INFO	Listening on port 50697
+Read port: 50697
+1653148880974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1653148883743	Marionette	INFO	Stopped listening on port 50697
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1653148884387	geckodriver	INFO	Listening on 127.0.0.1:50727
+1653148887427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileJgSZAu"
+1653148887710	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Amit\\AppData\\Local\\Temp\\rust_mozprofileJgSZAu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50728/devtools/browser/5ad748db-bfc3-4a7e-b1e9-4980960aff1f
+1653148889446	Marionette	INFO	Listening on port 50752
+Read port: 50752
+1653148889669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653148892630	Marionette	INFO	Stopped listening on port 50752
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+

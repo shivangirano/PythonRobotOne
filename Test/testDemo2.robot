@@ -30,9 +30,6 @@ Fill the login form
     input password      xpath://input[@id='password']       ${user_password}
     click element       //input[@id='signInBtn']
 
-Wait until the element is displayed
-    [arguments]         ${wait_element}
-    wait until element is visible       ${wait_element}
 
 Verify if error message is correct
     element text should be      ${invalid_error_message_loacator}       Incorrect username/password.
